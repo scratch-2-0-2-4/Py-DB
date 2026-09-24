@@ -76,3 +76,4 @@ elif menu == "Actions sur la DB":
         elif menu_admin == "Obtenir l'ID d'un utilisateur":
             ID_search = questionary.text("Nom d'utilisateur >>> ").ask()
             DB.get_id(ID_search)
+
