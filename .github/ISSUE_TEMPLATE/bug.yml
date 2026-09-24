@@ -1,0 +1,30 @@
+name: Signaler un bug
+description: Signaler des bugs nous permet d'améliorer Py DB
+title: "[BUG]: "
+
+body:
+  - type: textarea
+    attributes:
+      label: "Description du bug"
+      description: "Plus il y a de détails, plus vite nous pourrons trouver le bug !"
+      placeholder: "Une description courte du bug"
+    validations:
+      required: true
+
+
+  - type: textarea
+    attributes:
+      label: "Qu'attendez-vous de nous ?"
+      description: "Que peux-t-on faire pour vous aider ?"
+      placeholder: "Que vous rectifiez le bug"
+    validations:
+      required: true
+
+
+  - type: textarea
+    attributes:
+      label: 'Capture(s) d''écran'
+      description: "Cela permettra une résolution encore plus rapide du bug"
+      placeholder: "Utillisez le trombonne (📎) pour ajouter des images."
+    validations:
+      required: false
