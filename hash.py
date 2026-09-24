@@ -5,7 +5,6 @@ def hash(txt):
   hash_hex = hash_objet.hexdigest()
   return hash_hex
 
-
 def compare_hash(hash1, hash2):
   if hash1 == hash2:
     return True
