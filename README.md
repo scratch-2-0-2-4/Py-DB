@@ -15,17 +15,31 @@ cd Py-DB
 ## Utilisation
 Une fois dans le dossier, lancez le programme (`script.py`) à l'aide de la commande suivante :
 
-#### Pour MacOS / Linux :
-``` Bash
-python3 script.py
-```
-
-#### Windows :
-``` Bash
-python script.py
+```Bash
+make run
 ```
 
 Ensuite, laissez-vous guider !
 
 > [!NOTE]
 > Le mot de passe par défaut est `Admin123!` mais vous pouvez le changer.
+
+## Structure :
+
+```Text
+PY DB/
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       └── bug.yml
+├── test/
+│   ├── __init__.py
+│   ├── hash.py
+│   └── SQLite.py
+├── .env
+├── .gitignore
+├── DB.db
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── script.py
+```

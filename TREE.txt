@@ -1,0 +1,15 @@
+PY DB/
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       └── bug.yml
+├── test/
+│   ├── __init__.py
+│   ├── hash.py
+│   └── SQLite.py
+├── .env
+├── .gitignore
+├── DB.db
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── script.py
