@@ -1,6 +1,6 @@
 import os
-import hash
-import SQLite as DB
+import test.hash as hash
+import test.SQLite as DB
 import questionary
 from dotenv import load_dotenv, set_key, find_dotenv
 
