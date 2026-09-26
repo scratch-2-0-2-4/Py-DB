@@ -1,13 +1,15 @@
 import os
 import Modules.hash as hash
 import Modules.SQLite as DB
+import Modules.tools as tools
 import questionary
 from dotenv import load_dotenv, set_key, find_dotenv
 
 env = find_dotenv()
 load_dotenv()
-
 ADMIN_MDP = os.getenv("ADMIN_MDP")
+
+tools.loading(3)
 
 menu = questionary.select(
     "Menu :",
@@ -15,6 +17,8 @@ menu = questionary.select(
         "Changer le mot de passe",
         "Actions sur la DB",
     ]).ask()
+
+tools.loading(3)
 
 if menu == "Changer le mot de passe":
     MDP_TEST = hash.hash(questionary.password("Ancien mot de passe >>> ").ask())
@@ -72,6 +76,7 @@ elif menu == "Actions sur la DB":
                 if confirm_username_supp == "Oui":
                     DB.supp_username(username_supp)
         elif menu_admin == "Afficher les utilisateurs":
+            tools.loading(3)
             DB.aff()
         elif menu_admin == "Obtenir l'ID d'un utilisateur":
             ID_search = questionary.text("Nom d'utilisateur >>> ").ask()
