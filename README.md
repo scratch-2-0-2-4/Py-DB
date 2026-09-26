@@ -43,3 +43,7 @@ PY DB/
 ├── requirements.txt
 └── script.py
 ```
+
+## Licence :
+
+[![MIT](https://badgen.net/github/license/scratch-2-0-2-4/Py-DB)](https://github.com/scratch-2-0-2-4/Py-DB?tab=MIT-1-ov-file)
