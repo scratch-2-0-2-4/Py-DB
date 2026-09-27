@@ -44,6 +44,6 @@ PY DB/
 └── script.py
 ```
 
-## Licence :
+## Autre :
 
-[![MIT](https://badgen.net/github/license/scratch-2-0-2-4/Py-DB)](https://github.com/scratch-2-0-2-4/Py-DB?tab=MIT-1-ov-file)
+[![MIT](https://badgen.net/github/license/scratch-2-0-2-4/Py-DB)](https://github.com/scratch-2-0-2-4/Py-DB?tab=MIT-1-ov-file) [![RELASE](https://img.shields.io/github/v/release/scratch-2-0-2-4/Py-DB)](https://github.com/scratch-2-0-2-4/Py-DB/tags)
