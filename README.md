@@ -46,4 +46,4 @@ PY DB/
 
 ## Autre :
 
-[![MIT](https://badgen.net/github/license/scratch-2-0-2-4/Py-DB)](https://github.com/scratch-2-0-2-4/Py-DB?tab=MIT-1-ov-file) [![RELASE](https://img.shields.io/github/v/release/scratch-2-0-2-4/Py-DB)](https://github.com/scratch-2-0-2-4/Py-DB/tags)
+[![MIT](https://badgen.net/github/license/scratch-2-0-2-4/Py-DB)](https://github.com/scratch-2-0-2-4/Py-DB?tab=MIT-1-ov-file) [![RELEASE](https://img.shields.io/github/v/release/scratch-2-0-2-4/Py-DB?include_prereleases)](https://github.com/scratch-2-0-2-4/Py-DB/releases)
