@@ -1,4 +1,5 @@
 import os
+import Modules.relases as maj
 import Modules.hash as hash
 import Modules.SQLite as DB
 import Modules.tools as tools
@@ -8,9 +9,21 @@ from dotenv import load_dotenv, set_key, find_dotenv
 env = find_dotenv()
 load_dotenv()
 ADMIN_MDP = os.getenv("ADMIN_MDP")
-
+VERSION_ACTUELLE = "v1.3.0"
 tools.loading(3)
 
+try:
+    info = maj.maj("scratch-2-0-2-4", "Py-DB", VERSION_ACTUELLE)
+
+    if info["update_available"]:
+        print(f"Vous utilisez Py DB {VERSION_ACTUELLE} mais une nouvelle version ({maj.last_v}) est disponnible !")
+        print("Uttilisez 'git pull origin main' dans terminal pour mettre à jour.")
+    else:
+        print(f"Py DB {VERSION_ACTUELLE}\n")
+
+except maj.UpdateError as e:
+    print("Aucune connection réseau\n")
+    
 while True :
     menu = questionary.select(
     "Menu :",
