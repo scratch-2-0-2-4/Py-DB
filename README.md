@@ -28,20 +28,21 @@ Ensuite, laissez-vous guider !
 
 ```Text
 PY DB/
-├── .github/
-│   └── ISSUE_TEMPLATE/
-│       └── bug.yml
-├── test/
+├── Modules/
 │   ├── __init__.py
 │   ├── hash.py
-│   └── SQLite.py
+│   ├── relases.py
+│   ├── SQLite.py
+│   └── tools.py
 ├── .env
 ├── .gitignore
 ├── DB.db
 ├── LICENSE
+├── Makefile
 ├── README.md
 ├── requirements.txt
-└── script.py
+├── script.py
+└── TREE.txt
 ```
 
 ## Autre :
