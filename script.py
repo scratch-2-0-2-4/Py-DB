@@ -1,5 +1,5 @@
 import os
-import Modules.relases as maj
+import Modules.releases as maj
 import Modules.hash as hash
 import Modules.SQLite as DB
 import Modules.tools as tools
