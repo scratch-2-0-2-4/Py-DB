@@ -36,12 +36,13 @@ PY DB/
 │   └── tools.py
 ├── .env
 ├── .gitignore
-├── DB.db
+├── DB.sqlite
 ├── LICENSE
 ├── Makefile
 ├── README.md
 ├── requirements.txt
 ├── script.py
+├── script.sh
 └── TREE.txt
 ```
 

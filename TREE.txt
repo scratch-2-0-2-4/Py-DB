@@ -1,9 +1,4 @@
 PY DB/
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   └── bug.yml
-│   └── workflows/
-│       └── release.yml
 ├── Modules/
 │   ├── __init__.py
 │   ├── hash.py
@@ -12,10 +7,11 @@ PY DB/
 │   └── tools.py
 ├── .env
 ├── .gitignore
-├── DB.db
+├── DB.sqlite
 ├── LICENSE
 ├── Makefile
 ├── README.md
 ├── requirements.txt
 ├── script.py
+├── script.sh
 └── TREE.txt
