@@ -1,3 +1,5 @@
-questionary==2.1.0
+questionary
+python-dotenv==1.0.1
+packaging==24.2questionary==2.1.0
 python-dotenv==1.0.1
 packaging==24.2
