@@ -5,7 +5,6 @@ from packaging import version
 
 
 class UpdateError(Exception):
-    """Exception levée en cas d'échec de vérification (réseau, dépôt inexistant)."""
     pass
 
 

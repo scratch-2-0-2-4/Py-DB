@@ -16,7 +16,7 @@ try:
     info = maj.maj("scratch-2-0-2-4", "Py-DB", VERSION_ACTUELLE)
 
     if info["update_available"]:
-        print(f"Vous utilisez Py DB {VERSION_ACTUELLE} mais une nouvelle version ({maj.last_v}) est disponnible !")
+        print(f"Vous utilisez Py DB {VERSION_ACTUELLE} mais une nouvelle version est disponnible !")
         print("Uttilisez 'git pull origin main' dans terminal pour mettre à jour.")
     else:
         print(f"Py DB {VERSION_ACTUELLE}\n")
