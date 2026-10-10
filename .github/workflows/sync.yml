@@ -19,7 +19,7 @@ jobs:
         env:
           GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
-          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/scratch-2-0-2-4/Flask-Website.git
+          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/scratch-2-0-2-4/Py-DB.git
           git fetch --tags
           git push gitlab --all --force
           git push gitlab --tags --force
