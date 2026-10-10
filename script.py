@@ -11,7 +11,7 @@ from dotenv import load_dotenv, set_key, find_dotenv
 env = find_dotenv()
 load_dotenv()
 ADMIN_MDP = os.getenv("ADMIN_MDP")
-VERSION_ACTUELLE = "v1.3.0"
+VERSION_ACTUELLE = "v1.6.0"
 
 l.accept_license()
 is_license_accepted = Path(".license").is_file()
