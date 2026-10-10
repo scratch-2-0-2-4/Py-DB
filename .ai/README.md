@@ -12,6 +12,7 @@
 - **`Makefile`** : `Makefile` 95% généré par IA
 - **`*.sh`** : Tous les `.sh` sont 100% généré par IA
 - **`SQLite`** : Le **`SQLite`** est principalement fais avec l'IA
+- **`relases.py`** : Module généré par l'IA
 
 ## Vérification
 Tout le code généré par l'IA a été vérifié par des humains.
