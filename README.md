@@ -3,11 +3,13 @@
 
 ## Instalation
 Utilisez la commande ci-dessous pour installer le dépot sur votre ordinateur 
+
 ``` Bash
 git clone https://github.com/scratch-2-0-2-4/Py-DB.git
 ```
 
 Puis, entrez dans le dossier à l'aide de la commande ci-dessous
+
 ``` Bash
 cd Py-DB
 ```
@@ -16,7 +18,11 @@ cd Py-DB
 Une fois dans le dossier, lancez le programme (`script.py`) à l'aide de la commande suivante :
 
 ```Bash
-make run
+make init # /!\ Seulement la première fois
+```
+
+```Bash
+make run # Les autres fois
 ```
 
 Ensuite, laissez-vous guider !
