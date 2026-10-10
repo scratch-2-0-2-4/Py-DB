@@ -24,28 +24,9 @@ Ensuite, laissez-vous guider !
 > [!NOTE]
 > Le mot de passe par défaut est `Admin123!` mais vous pouvez le changer.
 
-## Structure :
-
-```Text
-PY DB/
-├── Modules/
-│   ├── __init__.py
-│   ├── hash.py
-│   ├── relases.py
-│   ├── SQLite.py
-│   └── tools.py
-├── .env
-├── .gitignore
-├── DB.sqlite
-├── LICENSE
-├── Makefile
-├── README.md
-├── requirements.txt
-├── script.py
-├── script.sh
-└── TREE.txt
-```
-
 ## Autre :
 
 [![MIT](https://badgen.net/github/license/scratch-2-0-2-4/Py-DB)](https://github.com/scratch-2-0-2-4/Py-DB?tab=MIT-1-ov-file) [![RELEASE](https://img.shields.io/github/v/release/scratch-2-0-2-4/Py-DB?include_prereleases)](https://github.com/scratch-2-0-2-4/Py-DB/releases)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/scratch-2-0-2-4/Py-DB)
+[![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/scratch-2-0-2-4/Py-DB)
